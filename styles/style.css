@@ -4,6 +4,11 @@
   padding: 0;
 }
 
+p {
+  font-size: 0.875rem;
+  line-height: 170%;
+}
+
 body {
   color: #6c6c6c;
   font-family: "Poppins", sans-serif;
@@ -14,15 +19,19 @@ body header {
   justify-content: space-between;
   padding: 20px 32px;
 }
+body header p {
+  font-size: 1rem;
+  line-height: 150%;
+}
 body header nav {
   align-items: center;
   display: flex;
-  gap: 16px;
+  gap: 1rem;
 }
 body header nav div {
   align-items: center;
   display: flex;
-  gap: 16px;
+  gap: 1rem;
 }
 body header nav div i {
   font-size: 1.5rem;
@@ -31,5 +40,48 @@ body header nav img {
   width: 2.5rem;
 }
 body main #userInfo {
+  align-items: center;
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: space-between;
   padding: 32px;
+}
+body main #userInfo #userBioAndPicture {
+  align-items: center;
+  display: flex;
+  gap: 2rem;
+  width: 37rem;
+}
+body main #userInfo #userBioAndPicture img {
+  width: 11rem;
+}
+body main #userInfo #userBioAndPicture div h1 {
+  color: #313131;
+  font-size: 2rem;
+  line-height: 125%;
+  font-weight: bold;
+}
+body main #userInfo #userMetaInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 17.5rem;
+}
+body main #userInfo #userMetaInfo div {
+  display: flex;
+  gap: 0.5rem;
+}
+body main #userInfo #userMetaInfo div .ph-duotone {
+  color: #ef5f4c;
+  font-size: 1.5rem;
+}
+body main #userPosts {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  padding: 24px 32px;
+}
+body main #userPosts img {
+  border-radius: 8px;
+  flex: 1;
 }/*# sourceMappingURL=style.css.map */
