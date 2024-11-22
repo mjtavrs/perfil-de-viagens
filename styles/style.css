@@ -31,10 +31,18 @@ body header nav {
 body header nav div {
   align-items: center;
   display: flex;
+  cursor: pointer;
   gap: 1rem;
 }
 body header nav div i {
   font-size: 1.5rem;
+}
+body header nav div:hover {
+  color: #ef5f4c;
+  transition: 150ms color;
+}
+body header nav div:hover p {
+  text-decoration: underline;
 }
 body header nav img {
   width: 2.5rem;
@@ -84,4 +92,19 @@ body main #userPosts {
 body main #userPosts img {
   border-radius: 8px;
   flex: 1;
+}
+body footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 32px;
+}
+body footer p {
+  line-height: 150%;
+}
+body footer div {
+  display: flex;
+  gap: 1rem;
+}
+body footer div p {
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */
