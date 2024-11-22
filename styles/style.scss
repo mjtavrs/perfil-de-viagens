@@ -1,0 +1,45 @@
+@import "./colors";
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: $text-color-secondary;
+    font-family: "Poppins", sans-serif;
+
+    header {
+        background-color: $surface-color;
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 32px;
+
+        nav {
+            align-items: center;
+            display: flex;
+            gap: 16px;
+
+            div {
+                align-items: center;
+                display: flex;
+                gap: 16px;
+
+                i {
+                    font-size: 1.5rem;
+                }
+            }
+
+            img {
+                width: 2.5rem;
+            }
+        }
+    }
+
+    main {
+        #userInfo {
+            padding: 32px;
+        }
+    }
+}
